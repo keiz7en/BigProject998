@@ -9,6 +9,7 @@ module com.example.bigproject998 {
     requires org.kordamp.ikonli.javafx;
     requires org.kordamp.bootstrapfx.core;
     requires eu.hansolo.tilesfx;
+    requires java.desktop;
 
     opens com.example.bigproject998 to javafx.fxml;
     exports com.example.bigproject998;
